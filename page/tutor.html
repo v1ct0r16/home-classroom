@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutor Dashboard</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP LINK  -->
+  <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+
+  <!-- css link  -->
+  <link rel="stylesheet" href="/css/tutor.css">
+</head>
+<body>
+<div class="container">
+  <!-- DASHBOARD STARTS HERE -->
+  <menu class="holder">
+
+    <!-- homeroom logo start HERE  -->
+    <DIV>
+      <img src="/assets/Group 148.svg" alt=""><span id="omeroom">omeroom</span>
+    </DIV>
+    <!-- homeroom logo ends here  -->
+     
+    <!-- brenda profile starts here  -->
+    <div class="profile" id="read">
+      <div><img src="/assets/Ellipse 58 (1).svg" alt=""></div>
+      <span id="Brenda-name">Joshua Ekpe</span>
+      <span id="brenda-email">Joshua.ekpe@gmail.com</span>
+    </div>
+    <!-- brenda profile ends here  -->
+
+    <!-- dashboard button starts here  -->
+    <div id="dashboard-button">
+      <div class="dash-button-div"><img src="/assets/home_FILL0_wght400_GRAD0_opsz24 2.svg" alt=""><span id="dashboard-text">Dashboard</span></div>
+    </div>
+
+
+    <ul id="dash-list">
+      <li id="list"><img src="/assets/Profile Card/vuesax/linear/note-2.svg" alt=""><span id="other-text">My lessons</span></li>
+      <li id="list"><img src="/assets/Profile Card (1)/vuesax/linear/profile-2user.svg" alt=""><span id="other-text">My tutors</span></li>
+      <li id="list"><img src="/assets/Profile Card (2)/vuesax/linear/book.svg" alt=""><span id="other-text">Term Plsn</span></li>
+      <li id="list"><img src="/assets/Profile Card (3)/vuesax/linear/bookmark-2.svg" alt=""><span id="other-text">assignments</span></li>
+      <li id="list"><img src="/assets/Profile Card (4)/vuesax/linear/trend-up.svg" alt=""><span id="other-text">Grades</span></li>
+      <li id="list"><img src="/assets/Profile Card (5)/vuesax/linear/messages-3.svg" alt=""><span id="other-text">Messages</span></li>
+      <li id="list"><img src="/assets/help_FILL0_wght400_GRAD0_opsz24 2.svg" alt=""><span id="other-text">Help</span></li>
+    </ul>
+   
+    <div id="line"></div>
+
+    <ul>
+      <li id="log"><img src="/assets/log-out-svgrepo-com 1.svg" alt=""><span id="log-text">Log Out</span></li>
+    </ul>
+  </menu>
+  <!-- DASHBOARD ENDS HERE -->
+
+
+  <!-- BOARD STARTS HERE -->
+  <aside  class="board">
+    <section id="dc">
+      <div id="gc">
+      <div id="group-1">
+        <div id="search-div">
+          <input type="text" id="search-input" placeholder="Search for class, task, etc">
+          <img src="/assets/Profile Card (6)/vuesax/linear/search-normal.svg" alt="">
+        </div>
+      </div>
+
+     <div id="not">
+      <img src="/assets/Profile Card (7)/vuesax/linear/notification.svg" alt="" srcset="" id="bell">
+     </div>
+    </div>
+       
+    <div id="ec">
+      <div id="mode">
+        <div id="moon"><img src="/assets/Profile Card (8)/vuesax/linear/moon.svg" alt="" id="moon-img"></div>
+        <div id="sun"><img src="/assets/Profile Card (9)/vuesax/linear/sun.svg" alt="" id="sun-img"></div>
+      </div>
+
+      <div id="settings-div"><img src="/assets/Profile Card (10)/vuesax/linear/setting-2.svg" alt="" id="bolt"></div>
+    </div>
+    </section>
+
+    <section id="marvel-not">
+     <span id="nc-1">
+      <div id="welcome-div">
+        <div id="txt-wlc">
+          <span id="big-text">Welcome Back, Mr Ekpe!</span>
+          <span id="md-text">Great day to make more Acheivements!</span>
+          <div id="explore-btn">Find Student</div>
+        </div>
+
+      
+          <img src="/assets/Learning-rafiki 1.svg" alt="" id="rafiki">
+        
+      </div>
+
+      <div class="ass">
+        <span id="ass-txt">Upcoming Classes</span>
+        <span id="view-txt">View all</span>
+      </div>
+
+      <div class="ass-list">
+        <div id="physics-fluid">
+         <div id="py-1">
+          <div id="physics-date">
+            <span id="phy-txt">Grade 11-Brenda Akachi </span>
+            <span id="phy-dt">Quadratic Equation</span>
+          </div>
+         </div>
+
+         <div  id="physics-date" class="py-1">
+          <span class="phy-t">01PM</span>
+          <span id="phy-dti">13th Nov 2023</span>
+         </div>
+        
+
+         <div id="complete-btn">
+          <span id="myBtn" >Complete</span>
+         </div>
+
+        </div>
+       
+
+        <div id="physics-fluid">
+          <div id="py-1">
+           <div id="physics-date">
+             <span id="phy-txt">Grade 10-Jennifer Jatom</span>
+             <span id="phy-dt">Logical Reasoning</span>
+           </div>
+          </div>
+ 
+          <div  id="physics-date" class="py-1">
+           <span class="phy-t">03PM</span>
+           <span id="phy-dti">13th Nov 2023</span>
+          </div>
+         
+ 
+          <div id="complete-btn">
+           <!-- Trigger/Open The Modal -->
+<span id="myBtn" class="btn">Complete</span>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">×</span>
+    <p id="ass-txt">You have successfully Completed your Assignment</p>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+          </div>
+ 
+         </div>
+
+
+         <div id="physics-fluid">
+          <div id="py-1">
+           <div id="physics-date">
+             <span id="phy-txt">Grade 9 - Samuel Bassey</span>
+             <span id="phy-dt">Probability</span>
+           </div>
+          </div>
+ 
+          <div  id="physics-date" class="py-1">
+           <span class="phy-txt">10AM</span>
+           <span id="phy-dt">13th Nov 2023</span>
+          </div>
+         
+ 
+          <div id="incomplete-btn">
+           <span id="incomplete-txt">In progress</span>
+          </div>
+ 
+         </div>
+
+
+         <div id="physics-fluid">
+          <div id="py-1">
+           <div id="physics-date">
+             <span id="phy-txt">Grade 9 - Samuel Bassey</span>
+             <span id="phy-dt">Probability</span>
+           </div>
+          </div>
+ 
+          <div  id="physics-date" class="py-1">
+           <span class="phy-txt" >10AM</span>
+           <span id="phy-dt">13th Nov 2023</span>
+          </div>
+         
+ 
+          <div id="incomplete-btn">
+           <span id="incomplete-txt">In progress</span>
+          </div>
+ 
+         </div>
+      
+
+         <div id="progress-report">
+          <div id="report-subject">
+           <div class="mpr">
+            <span  id="mpr-txt">
+              <div id="awr"><span id="mpr-big-text">My  Progress Report</span><img src="/assets/Profile Card (11)/vuesax/linear/medal-star.svg" alt=""> </div>
+              <span id="mpr-small-text">Well done! let’s finish.</span>
+            </span>
+            <img src="/assets/Group 142.svg" alt="">
+           </div>
+
+           <div id="report-subject-bar">
+            <ul class="rep-list">
+              <li id="rep-li"><span id="rep-l">Grade 9</span></li>
+              <li id="rep-li"><span id="rep-l">Grade 10</span></li>
+              <li id="rep-li"><span id="rep-l">Grade 11</span></li>
+              <li id="rep-li"><span id="rep-l">Grade 12</span></li>
+            </ul>
+
+            <div id="report-lines">
+              <figure id="rep-line" ><div id="rep-color-o"></div></figure>
+              <figure id="rep-line"><div id="rep-color-g"></div></figure>
+              <figure id="rep-line"><div id="rep-color-r"></div></figure>
+              <figure id="rep-line"><div id="rep-color-o"></div></figure>
+            </div>
+           </div>
+          </div>
+            
+          <div id="att-cop">
+            <div class="att">
+              <div class="cop">
+                <div id="hour-per">
+                  <img src="/assets/people-team-svgrepo-com 1.svg" alt=""><span id="per">75%</span>
+                </div>
+
+                <div id="hour-txt"><span id="hr-txt">Attendance</span></div>
+              </div>
+            </div>
+
+            <div class="att">
+              <div class="cop">
+                <div>
+                  <div id="hour-per">
+                    <img src="/assets/board-presentation-svgrepo-com 1.svg" alt=""><span id="per">55%</span>
+                  </div>
+                  <div id="hout-txt"><span id="comp-txt">Completed</span><span id="comp-txt-2">Task</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+     <!-- live performances starts here  -->
+     <div id="live-performancdiv">
+        <div id="lvp"><span id="lvp-txt">Live Performances</span></div>
+        <table id="table-lp">
+          <th id="tab">Name</th>
+          <th id="tab">Grade</th>
+          <th id="tab">Attendance</th>
+          <th id="tab">Score</th>
+
+          <tr id="table-row">
+            <td>Samuel Bassey</td>
+            <td>9</td>
+            <td>50%</td>
+            <td> 12/25</td>
+          </tr>
+
+          <tr id="table-row">
+            <td>Jennifer Jatomi</td>
+            <td>10</td>
+            <td>75%</td>
+            <td>11/15</td>
+          </tr>
+
+          <tr id="table-row">
+            <td>Chigozie Obi</td>
+            <td>10</td>
+            <td>80%</td>
+            <td>9/15</td>
+          </tr>
+
+          <tr id="table-row">
+            <td>Brenda Akachi</td>
+            <td>11</td>
+            <td>40%</td>
+            <td>14/15</td>
+          </tr>
+
+          <tr id="table-row">
+            <td>Timothy Okio</td>
+            <td>12</td>
+            <td>50%</td>
+            <td>14/15</td>
+          </tr>
+        </table>
+     </div>
+     </span>
+
+
+     
+    
+    
+
+     <span id="nc-2">
+     <div id="c-1">
+       <!-- tutors board start here  -->
+       <div id="t-board">
+        <div id="tut">
+          <span id="tut-txt">Tutors</span>
+          <span id="tut-icons">
+            <span><img src="/assets/Profile Card (6)/vuesax/linear/search-normal.svg" alt=""></span>
+            <span><img src="/assets/more_horiz_FILL0_wght400_GRAD0_opsz24 1.svg" alt=""></span>
+          </span>
+        </div>
+  
+        <div id="tut-pics">
+          <img src="/assets/Screenshot 2023-11-28 011427.png" alt="" id="t-pic">
+        </div>
+        </div>
+
+        <div id="tut-calender">
+         <div class="tut-cal">
+           <!-- month and year  -->
+           <div id="month-yr">
+            <span  id="mtn-txt">Novembar 2023</span>
+            <span id="cont">
+             <icon id="hov-ic"><img src="/assets/chevron-right.svg" alt=""></icon>
+             <icon id="hov-ic"><img src="/assets/chevron-right (1).svg" alt=""></icon>
+            </span>
+           </div>
+           
+           <menu id="days-wk">
+            <ul id="wk">
+              <li id="day"><span id="d">31</span></li>
+              <li id="day"><span id="d">30</span></li>
+              <li id="day"><span id="dy">1</span></li>
+              <li id="day"><span id="dy">2</span></li>
+              <li id="day"><span id="dy">3</span></li>
+              <li id="day"><span id="dy">4</span></li>
+            </ul>
+
+            <ul id="wk">
+              <li id="day"><span id="dy">5</span></li>
+              <li id="day"><span id="dy">6</span></li>
+              <li id="day"><span id="dy">7</span></li>
+              <li id="day"><span id="dy">8</span></li>
+              <li id="day"><span id="dy">9</span></li>
+              <li id="day"><span id="dy">10</span></li>
+            </ul>
+
+            <ul id="wk">
+              <li id="day"><span id="dy">11</span></li>
+              <li id="day"><span id="dy">12</span></li>
+              <li id="day"><span id="y">13</span></li>
+              <li id="day"><span id="dy">14</span></li>
+              <li id="day"><span id="dy">15</span></li>
+              <li id="day"><span id="dy">16</span></li>
+            </ul>
+
+            <ul id="wk">
+              <li id="day"><span id="dy">17</span></li>
+              <li id="day"><span id="dy">18</span></li>
+              <li id="day"><span id="dy">19</span></li>
+              <li id="day"><span id="dy">20</span></li>
+              <li id="day"><span id="dy">21</span></li>
+              <li id="day"><span id="dy">22</span></li>
+            </ul>
+
+            <ul id="wk">
+              <li id="day"><span id="dy">23</span></li>
+              <li id="day"><span id="dy">24</span></li>
+              <li id="day"><span id="dy">25</span></li>
+              <li id="day"><span id="dy">26</span></li>
+              <li id="day"><span id="dy">27</span></li>
+              <li id="day"><span id="dy">28</span></li>
+            </ul>
+
+            <ul id="wk">
+              <li id="day"><span id="dy">29</span></li>
+              <li id="day"><span id="dy">30</span></li>
+              <li id="day"><span id="d">1</span></li>
+              <li id="day"><span id="d">2</span></li>
+              <li id="day"><span id="d">3</span></li>
+              <li id="day"><span id="d">4</span></li>
+            </ul>
+           </menu>
+         </div>
+
+        </div>
+        <!-- tutors board end here  -->
+
+        
+     </div>
+      
+     <!-- schedule board starts here  -->
+     <div id="c-2">
+      <div id="sch-board">
+        <span id="sch-blu"><span id="sch-txt-blu">schedule</span></span>
+         <span id="view-sch"><span id="vi-sch">View all</span></span>
+      </div>
+
+      <div id="sch-list-board">
+         <div id="sch-th">
+          <div id="sch-roll">
+            <menu id="roll">
+              <div id="semi-roll">
+               <div id="maam">
+                <div><img src="/assets/Ellipse 63 (3).svg" alt=""></div>
+                <div id="class-time">
+                 <span id="class-txt">Reschedule for Victory</span>
+                  <div id="time">
+                    <img src="/assets/Profile Card (13)/vuesax/linear/clock.svg" alt="">
+                    <figure id="pm-am">2:00PM 15th Nov, 2023</figure>
+                  </div>
+                </div>
+               </div>
+               <!-- <div id="cour"></div> -->
+               <img src="/assets/Profile Card (16)/vuesax/linear/edit-2.svg" alt="">
+              </div>
+            </menu>
+
+            <menu id="roll">
+              <div id="semi-roll">
+                <div id="maam">
+                  <div><img src="/assets/Ellipse 60.svg" alt=""></div>
+                  <div id="class-time">
+                    <span id="class-txt">Futher mathematics</span>
+                    <div id="time">
+                      <img src="/assets/Profile Card (13)/vuesax/linear/clock.svg" alt="">
+                      <figure id="pm-am">2:00PM 13th Nov, 2023</figure>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div id="cour"><img src="/assets/grade_FILL0_wght400_GRAD0_opsz24 5.svg" alt=""></div> -->
+                <img src="/assets/Profile Card (16)/vuesax/linear/edit-2.svg" alt="">
+              </div>
+            </menu>
+            <menu id="roll">
+              <div id="semi-roll">
+                <div id="maam">
+                  <div><img src="/assets/Group 112.svg" alt=""></div>
+                  <div id="class-time">
+                   <span id="class-txt">Futher maths Test</span>
+                    <div id="time">
+                      <img src="/assets/Profile Card (13)/vuesax/linear/clock.svg" alt="">
+                      <figure id="pm-am">12PM, 14th Nov, 2023</figure>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div id="cour"><img src="/assets/grade_FILL0_wght400_GRAD0_opsz24 5.svg" alt=""></div>
+                 -->
+                 <img src="/assets/Profile Card (16)/vuesax/linear/edit-2.svg" alt="">
+              </div>
+            </menu>
+            
+          </div>
+
+          <div id="sch-line"><div id="sch-line-blu"></div></div>
+
+         </div> <span id="n-m-sch">No more schedule</span>
+        
+      </div>
+     </div>
+
+      <div id="c-3">
+        <div id="to-do">
+          <span  id="to-do-text"><span id="tdl">What's New?</span></span>
+          <!-- <img src="/assets/Profile Card (15)/vuesax/linear/edit-2.svg" alt=""> -->
+         </div>
+
+         <div id="t-div">
+          <div id="t-d">
+            <div id="t-d-stop">
+              <div id="rect"></div>
+              <div id="critical-thinking">7 Ways to Teach Critical Thinking in Elementary Education</div>
+              <div id="Read-more"><a href="read" id="more">Read more</a></div>
+            </div>
+            
+          </div>
+
+         </div>
+      </div>
+
+     </span>
+    </section>
+  </aside>
+  <!-- BOARD ENDS HERE -->
+
+  
+
+</div>
+
+
+
+</body>
+</html>
